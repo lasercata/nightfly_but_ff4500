@@ -396,7 +396,7 @@ following to your initialization file prior to setting the colorscheme:
 " Vimscript initialization file
 augroup CustomHighlight
     autocmd!
-    autocmd ColorScheme nightfly highlight Function guifg=#82aaff gui=bold
+    autocmd ColorScheme nightfly highlight Function guifg=#ff4500 gui=bold
 augroup END
 ```
 
@@ -406,7 +406,7 @@ local custom_highlight = vim.api.nvim_create_augroup("CustomHighlight", {})
 vim.api.nvim_create_autocmd("ColorScheme", {
   pattern = "nightfly",
   callback = function()
-    vim.api.nvim_set_hl(0, "Function", { fg = "#82aaff", bold = true })
+    vim.api.nvim_set_hl(0, "Function", { fg = "#ff4500", bold = true })
   end,
   group = custom_highlight,
 })
@@ -491,7 +491,7 @@ For other terminals please configure appropriately with the following colors:
 | Color 2        | Red (normal)    | `#fc514e` | ![background](https://place-hold.it/32/fc514e?text=+)
 | Color 3        | Green (normal)  | `#a1cd5e` | ![background](https://place-hold.it/32/a1cd5e?text=+)
 | Color 4        | Yellow (normal) | `#e3d18a` | ![background](https://place-hold.it/32/e3d18a?text=+)
-| Color 5        | Blue (normal)   | `#82aaff` | ![background](https://place-hold.it/32/82aaff?text=+)
+| Color 5        | Blue (normal)   | `#ff4500` | ![background](https://place-hold.it/32/ff4500?text=+)
 | Color 6        | Purple (normal) | `#c792ea` | ![background](https://place-hold.it/32/c792ea?text=+)
 | Color 7        | Cyan (normal)   | `#7fdbca` | ![background](https://place-hold.it/32/7fdbca?text=+)
 | Color 8        | White (normal)  | `#a1aab8` | ![background](https://place-hold.it/32/a1aab8?text=+)
@@ -499,7 +499,7 @@ For other terminals please configure appropriately with the following colors:
 | Color 10       | Red (bright)    | `#ff5874` | ![background](https://place-hold.it/32/ff5874?text=+)
 | Color 11       | Green (bright)  | `#21c7a8` | ![background](https://place-hold.it/32/21c7a8?text=+)
 | Color 12       | Yellow (bright) | `#ecc48d` | ![background](https://place-hold.it/32/ecc48d?text=+)
-| Color 13       | Blue (bright)   | `#82aaff` | ![background](https://place-hold.it/32/82aaff?text=+)
+| Color 13       | Blue (bright)   | `#ff4500` | ![background](https://place-hold.it/32/ff4500?text=+)
 | Color 14       | Purple (bright) | `#ae81ff` | ![background](https://place-hold.it/32/ae81ff?text=+)
 | Color 15       | Cyan (bright)   | `#7fdbca` | ![background](https://place-hold.it/32/7fdbca?text=+)
 | Color 16       | White (bright)  | `#d6deeb` | ![background](https://place-hold.it/32/d6deeb?text=+)

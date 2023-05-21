@@ -9,7 +9,7 @@ local colors = {
   color0 = '#2c3043',
 
   -- Mode colors.
-  color1 = '#82aaff',
+  color1 = '#ff4500',
   color2 = '#21c7a8',
   color3 = '#ae81ff',
   color4 = '#ecc48d',
