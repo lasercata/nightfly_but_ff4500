@@ -2,7 +2,11 @@
 
 Forked from [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) to change the accent color to `ff4500` (orange red).
 
+---
+
 Original README below :
+
+---
 
 ![nightfly](https://raw.githubusercontent.com/bluz71/misc-binaries/master/headings/nightfly.png)
 ==========
