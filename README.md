@@ -85,25 +85,25 @@ _nightfly_ explicitly does **not** support the 256 color `cterm` version of Vim.
 Installation
 ------------
 
-Install the **bluz71/vim-nightfly-colors** colorscheme with your preferred
+Install the **lasercata/nightfly_but_ff4500** colorscheme with your preferred
 plugin manager.
 
 [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```viml
-Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
+Plug 'lasercata/nightfly_but_ff4500', { 'as': 'nightfly_but_ff4500' }
 ```
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
-use { "bluz71/vim-nightfly-colors", as = "nightfly" }
+use { "lasercata/nightfly_but_ff4500", as = "nightfly_but_ff4500" }
 ```
 
 [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
-{ "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
+{ "lasercata/nightfly_but_ff4500", name = "nightfly_but_ff4500", lazy = false, priority = 1000 },
 ```
 
 Usage
