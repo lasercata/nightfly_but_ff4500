@@ -35,30 +35,30 @@ let s:warning      = [s:tan[0],        s:slate_blue[0], s:tan[1],        s:slate
 let s:error        = [s:watermelon[0], s:slate_blue[0], s:watermelon[1], s:slate_blue[1]]
 
 if exists('g:airline_theme')
-    let g:airline#themes#nightfly#palette = {}
-    let g:airline#themes#nightfly#palette = {}
+    let g:airline#themes#nightfly_but_ff4500#palette = {}
+    let g:airline#themes#nightfly_but_ff4500#palette = {}
 
-    let g:airline#themes#nightfly#palette.normal                 = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
-    let g:airline#themes#nightfly#palette.normal.airline_warning = s:warning
-    let g:airline#themes#nightfly#palette.normal.airline_error   = s:error
+    let g:airline#themes#nightfly_but_ff4500#palette.normal                 = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
+    let g:airline#themes#nightfly_but_ff4500#palette.normal.airline_warning = s:warning
+    let g:airline#themes#nightfly_but_ff4500#palette.normal.airline_error   = s:error
 
-    let g:airline#themes#nightfly#palette.insert                 = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
-    let g:airline#themes#nightfly#palette.insert.airline_warning = s:warning
-    let g:airline#themes#nightfly#palette.insert.airline_error   = s:error
+    let g:airline#themes#nightfly_but_ff4500#palette.insert                 = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
+    let g:airline#themes#nightfly_but_ff4500#palette.insert.airline_warning = s:warning
+    let g:airline#themes#nightfly_but_ff4500#palette.insert.airline_error   = s:error
 
-    let g:airline#themes#nightfly#palette.visual                 = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
-    let g:airline#themes#nightfly#palette.visual.airline_warning = s:warning
-    let g:airline#themes#nightfly#palette.visual.airline_error   = s:error
+    let g:airline#themes#nightfly_but_ff4500#palette.visual                 = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
+    let g:airline#themes#nightfly_but_ff4500#palette.visual.airline_warning = s:warning
+    let g:airline#themes#nightfly_but_ff4500#palette.visual.airline_error   = s:error
 
-    let g:airline#themes#nightfly#palette.commandline                 = airline#themes#generate_color_map(s:commandline1, s:commandline2, s:commandline3)
-    let g:airline#themes#nightfly#palette.commandline.airline_warning = s:warning
-    let g:airline#themes#nightfly#palette.commandline.airline_error   = s:error
+    let g:airline#themes#nightfly_but_ff4500#palette.commandline                 = airline#themes#generate_color_map(s:commandline1, s:commandline2, s:commandline3)
+    let g:airline#themes#nightfly_but_ff4500#palette.commandline.airline_warning = s:warning
+    let g:airline#themes#nightfly_but_ff4500#palette.commandline.airline_error   = s:error
 
-    let g:airline#themes#nightfly#palette.replace                 = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
-    let g:airline#themes#nightfly#palette.replace.airline_warning = s:warning
-    let g:airline#themes#nightfly#palette.replace.airline_error   = s:error
+    let g:airline#themes#nightfly_but_ff4500#palette.replace                 = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
+    let g:airline#themes#nightfly_but_ff4500#palette.replace.airline_warning = s:warning
+    let g:airline#themes#nightfly_but_ff4500#palette.replace.airline_error   = s:error
 
-    let g:airline#themes#nightfly#palette.inactive                 = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
-    let g:airline#themes#nightfly#palette.inactive.airline_warning = s:warning
-    let g:airline#themes#nightfly#palette.inactive.airline_error   = s:error
+    let g:airline#themes#nightfly_but_ff4500#palette.inactive                 = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
+    let g:airline#themes#nightfly_but_ff4500#palette.inactive.airline_warning = s:warning
+    let g:airline#themes#nightfly_but_ff4500#palette.inactive.airline_error   = s:error
 endif

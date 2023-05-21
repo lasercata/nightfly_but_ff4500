@@ -1,0 +1,16 @@
+LICENSE
+README.md
+.git/config
+.git/FETCH_HEAD
+.git/logs/HEAD
+.git/logs/refs/remotes/origin/HEAD
+.git/logs/refs/heads/master
+autoload/nightfly.vim
+autoload/airline/themes/nightfly.vim
+autoload/lightline/colorscheme/nightfly.vim
+colors/nightfly_but_ff4500.vim
+doc/nightfly.txt
+lua/lualine/themes/nightfly.lua
+lua/nightfly/init.lua
+misc/color-palette.sh
+terminal_themes/windows-terminal-settings.json

@@ -3,7 +3,7 @@
     "schemes":
     [
         {
-            "name": "nightfly",
+            "name": "nightfly_but_ff4500",
             "background": "#011627",
             "foreground": "#bdc1c6",
             "cursorColor": "#9ca1aa",

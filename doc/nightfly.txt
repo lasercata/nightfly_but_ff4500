@@ -1,98 +1,98 @@
-*nightfly* A dark midnight theme for classic Vim & modern Neovim
+*nightfly_but_ff4500* A dark midnight theme for classic Vim & modern Neovim
 
-OPTIONS                                                      *nightfly-options*
+OPTIONS                                                      *nightfly_but_ff4500-options*
 
 Default option values:
 >
-  let g:nightflyCursorColor = v:false
-  let g:nightflyItalics = v:true
-  let g:nightflyNormalFloat = v:false
-  let g:nightflyTerminalColors = v:true
-  let g:nightflyTransparent = v:false
-  let g:nightflyUndercurls = v:true
-  let g:nightflyUnderlineMatchParen = v:false
-  let g:nightflyWinSeparator = 1
+  let g:nightfly_but_ff4500CursorColor = v:false
+  let g:nightfly_but_ff4500Italics = v:true
+  let g:nightfly_but_ff4500NormalFloat = v:false
+  let g:nightfly_but_ff4500TerminalColors = v:true
+  let g:nightfly_but_ff4500Transparent = v:false
+  let g:nightfly_but_ff4500Undercurls = v:true
+  let g:nightfly_but_ff4500UnderlineMatchParen = v:false
+  let g:nightfly_but_ff4500WinSeparator = 1
 <
 ------------------------------------------------------------------------------
-nightflyCursorColor~                                   *g:nightflyCursorColor*
+nightfly_but_ff4500CursorColor~                                   *g:nightfly_but_ff4500CursorColor*
 
-The `nightflyCursorColor` option specifies whether to color the cursor or not.
+The `nightfly_but_ff4500CursorColor` option specifies whether to color the cursor or not.
 By default the cursor will NOT be colored. If you prefer a colored cursor then
 add the following to your initialization file:
 
 >
   " Vimscript initialization file
-  let g:nightflyCursorColor = v:true
+  let g:nightfly_but_ff4500CursorColor = v:true
 
   -- Lua initialization file
-  vim.g.nightflyCursorColor = true
+  vim.g.nightfly_but_ff4500CursorColor = true
 <
 ------------------------------------------------------------------------------
-nightflyitalics~                                           *g:nightflyitalics*
+nightfly_but_ff4500italics~                                           *g:nightfly_but_ff4500italics*
 
-The `nightflyItalics` option specifies whether to use italics for comments and
+The `nightfly_but_ff4500Italics` option specifies whether to use italics for comments and
 certain HTML elements in GUI versions of Vim. By default this option is
 enabled. If you do not like the appearance of italics then add the following
 to your initialization file:
 
 >
   " Vimscript initialization file
-  let g:nightflyItalics = v:false
+  let g:nightfly_but_ff4500Italics = v:false
 
   -- Lua initialization file
-  vim.g.nightflyItalics = false
+  vim.g.nightfly_but_ff4500Italics = false
 <
 ------------------------------------------------------------------------------
-### nightflyNormalFloat                                *g:nightflyNormalFloat*
+### nightfly_but_ff4500NormalFloat                                *g:nightfly_but_ff4500NormalFloat*
 
-The `nightflyNormalFloat` option specifies whether to use nightfly background
+The `nightfly_but_ff4500NormalFloat` option specifies whether to use nightfly_but_ff4500 background
 and foreground colors in Neovim floating windows. By default this option is
 disabled, hence, Neovim floating windows will usually be styled with popup
-menu colors. If you would like to use nightfly colors instead then add the
+menu colors. If you would like to use nightfly_but_ff4500 colors instead then add the
 following to your configuration:
 
 >
   " Vimscript initialization file
-  let g:nightflyNormalFloat = v:true
+  let g:nightfly_but_ff4500NormalFloat = v:true
 
   -- Lua initialization file
-  vim.g.nightflyNormalFloat = true
+  vim.g.nightfly_but_ff4500NormalFloat = true
 <
 ------------------------------------------------------------------------------
-nightflyTerminalColors~                             *g:nightflyTerminalColors*
+nightfly_but_ff4500TerminalColors~                             *g:nightfly_but_ff4500TerminalColors*
 
-The `nightflyTerminalColors` option specifies whether to use the nightfly
+The `nightfly_but_ff4500TerminalColors` option specifies whether to use the nightfly_but_ff4500
 color palette in `:terminal` windows when `termguicolors` is set. By default
-this option is **enabled**. If you prefer not to use the nightfly color
+this option is **enabled**. If you prefer not to use the nightfly_but_ff4500 color
 palette for the first 16 terminal colors then add the following to your
 initialization file:
 
 >
   " Vimscript initialization file
-  let g:nightflyTerminalColors = v:false
+  let g:nightfly_but_ff4500TerminalColors = v:false
 
   -- Lua initialization file
-  vim.g.nightflyTerminalColors = false
+  vim.g.nightfly_but_ff4500TerminalColors = false
 <
 ------------------------------------------------------------------------------
-nightflyTransparent~                                   *g:nightflyTransparent*
+nightfly_but_ff4500Transparent~                                   *g:nightfly_but_ff4500Transparent*
 
-The `nightflyTransparent` option specifies whether to use an opaque or
+The `nightfly_but_ff4500Transparent` option specifies whether to use an opaque or
 transparent background in GUI versions of Vim. By default this option is
 disabled. If you would like a transparent background then add the following to
 your initialization file:
 
 >
   " Vimscript initialization file
-  let g:nightflyTransparent = v:true
+  let g:nightfly_but_ff4500Transparent = v:true
 
   -- Lua initialization file
-  vim.g.nightflyTransparent = true
+  vim.g.nightfly_but_ff4500Transparent = true
 <
 ------------------------------------------------------------------------------
-nightflyUndercurls~                                     *g:nightflyUndercurls*
+nightfly_but_ff4500Undercurls~                                     *g:nightfly_but_ff4500Undercurls*
 
-The `nightflyUndercurls` option specifies whether to use undercurls for
+The `nightfly_but_ff4500Undercurls` option specifies whether to use undercurls for
 spelling and linting errors in GUI versions of Vim, including terminal Vim
 with `termguicolors` set. By default this option is enabled. If you do not
 like the appearance of undercurls then add the following to your
@@ -100,45 +100,45 @@ initialization file:
 
 >
   " Vimscript initialization file
-  let g:nightflyUndercurls = v:false
+  let g:nightfly_but_ff4500Undercurls = v:false
 
   -- Lua initialization file
-  vim.g.nightflyUndercurls = false
+  vim.g.nightfly_but_ff4500Undercurls = false
 <
 ------------------------------------------------------------------------------
-nightflyUnderlineMatchParen~                   *g:nightflyUnderlineMatchParen*
+nightfly_but_ff4500UnderlineMatchParen~                   *g:nightfly_but_ff4500UnderlineMatchParen*
 
-The `nightflyUnderlineMatchParen` option specifies whether to underline
+The `nightfly_but_ff4500UnderlineMatchParen` option specifies whether to underline
 matching parentheses. By default this option is disabled. If you want to
 underline matching parentheses then add the following to your initialization
 file:
 
 >
   " Vimscript initialization file
-  let g:nightflyUnderlineMatchParen = v:true
+  let g:nightfly_but_ff4500UnderlineMatchParen = v:true
 
   -- Lua initialization file
-  vim.g.nightflyUnderlineMatchParen = true
+  vim.g.nightfly_but_ff4500UnderlineMatchParen = true
 <
 ------------------------------------------------------------------------------
-nightflyVirtualTextColor~                         *g:nightflyVirtualTextColor*
+nightfly_but_ff4500VirtualTextColor~                         *g:nightfly_but_ff4500VirtualTextColor*
 
-The `nightflyVirtualTextColor` option specifies whether to display diagnostic
+The `nightfly_but_ff4500VirtualTextColor` option specifies whether to display diagnostic
 virtual text in color. By default this option is **disabled**. If you want to
 display diagnostic virtual text in color then add the following to your
 initialization file:
 
 >
   " Vimscript initialization file
-  let g:nightflyVirtualTextColor = v:true
+  let g:nightfly_but_ff4500VirtualTextColor = v:true
 
   -- Lua initialization file
-  vim.g.nightflyVirtualTextColor = true
+  vim.g.nightfly_but_ff4500VirtualTextColor = true
 <
 ------------------------------------------------------------------------------
-nightflyWinSeparator~                                 *g:nightflyWinSeparator*
+nightfly_but_ff4500WinSeparator~                                 *g:nightfly_but_ff4500WinSeparator*
 
-The `nightflyWinSeparator` option specifies the style of window separators:
+The `nightfly_but_ff4500WinSeparator` option specifies the style of window separators:
 
 - `0` will display no window separators
 
@@ -151,20 +151,20 @@ configuration:
 
 >
   " Vimscript initialization file
-  let g:nightflyWinSeparator = 2
+  let g:nightfly_but_ff4500WinSeparator = 2
 
   -- Lua initialization file
-  vim.g.nightflyWinSeparator = 2
+  vim.g.nightfly_but_ff4500WinSeparator = 2
 <
 ------------------------------------------------------------------------------
-nightflyPalette~                                            *nightfly.palette*
+nightfly_but_ff4500Palette~                                            *nightfly_but_ff4500.palette*
 
 The `palette` field returns a table of internal theme colors; useful for
 constructing custom statuslines and the like. Note, this is only available in
 Neovim.
 
 >lua
-  require("nightfly").palette
+  require("nightfly_but_ff4500").palette
 <
 
 vim:tw=78:ts=8:noet:ft=help:norl:

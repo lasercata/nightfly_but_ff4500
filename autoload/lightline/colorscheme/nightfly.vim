@@ -47,5 +47,5 @@ if exists('g:lightline')
     let s:p.tabline.right   = [[s:cadet_blue, s:slate_blue]]
     let s:p.tabline.tabsel  = [[s:blue, s:slate_blue]]
 
-    let g:lightline#colorscheme#nightfly#palette = lightline#colorscheme#flatten(s:p)
+    let g:lightline#colorscheme#nightfly_but_ff4500#palette = lightline#colorscheme#flatten(s:p)
 endif
